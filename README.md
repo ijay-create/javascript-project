@@ -12,57 +12,61 @@ It serves as a handy toolkit for learning and revising basic JavaScript concepts
 
 ## File Overview
 
-functions.js – Contains all implemented functions with example usage.
+1. functions.js – Contains all implemented functions with example usage.
 
 
-1. Function Categories
-2. String Manipulation
 
-reverseString(str)
+- Function Categories
+
+## STRING MANIPULATION
+
+1. reverseString(str)
 Reverses the input string.
 Example: "hello" → "olleh"
 
-countCharacters(str)
+2. countCharacters(str)
 Returns the number of characters in a string.
 Example: "JavaScript" → 10
 
-capitalizeWords(sentence)
+3. capitalizeWords(sentence)
 Capitalizes the first letter of every word in a sentence.
 Example: "hello world" → "Hello World"
 
 ## ARRAY FUNCTIONS
 
-- findMax(arr)
+4.  findMax(arr)
 Returns the maximum number in an array.
 Example: [10, 3, 99, 42, 7] → 99
 
-- findMin(arr)
+5. findMin(arr)
 Returns the minimum number in an array.
 Example: [10, 3, 99, 42, 7] → 3
-
-- sumArray(arr)
+6. sumArray(arr)
 Returns the sum of all numbers in an array.
 Example: [1, 2, 3, 4, 5] → 15
 
-- filterArray(arr, conditionFunc)
+7. filterArray(arr, conditionFunc)
 Filters an array using a provided condition function.
 Example: Filter even numbers:
 
+## Pseudocode
+```type
 - filterArray([1,2,3,4], n => n % 2 === 0) // → [2, 4]
+```
 
 ## MATHEMATICAL FUNCTIONS
 
-- factorial(n)
+8.  factorial(n)
 Returns the factorial of a number using recursion.
 Example: factorial(5) → 120
 
-- isPrime(n)
+9.  isPrime(n)
 Checks whether a number is a prime number.
 Examples:
 isPrime(7) → true
 isPrime(10) → false
 
-- fibonacci(n)
+10. fibonacci(n)
 Generates the first n numbers in the Fibonacci sequence.
 Example: fibonacci(7) → [0, 1, 1, 2, 3, 5, 8]
 
@@ -90,7 +94,9 @@ With Node.js
 
 - Run the file:
 
-- node functions.js
+```type
+node functions.js
+```
 
 
 ## Author
